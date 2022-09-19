@@ -1,0 +1,26 @@
+@charset "ISO-8859-1";
+
+.vehicle .vehicle-inner{
+	width: 85%;
+	margin: 0 auto;
+}
+
+.vehicle .vehicle-inner .save-btn{
+	background: #ff6600;
+	color: #fff;
+}
+
+.vehicle .vehicle-inner .save-btn:hover{
+	background: #e65c00;
+	color: #fff;
+}
+
+span{
+	color: #808080;
+	font-size: 12px;
+}
+
+.card-body ul li{
+	 font-size: 14px;
+	 color: #808080;
+}

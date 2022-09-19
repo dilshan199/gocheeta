@@ -1,0 +1,66 @@
+@charset "ISO-8859-1";
+
+.place-booking .place-booking-inner{
+	width: 85%;
+	margin: auto;
+}
+
+.progressbar{
+	background: yellow;
+	margin: 0 auto;
+	width: 50%;
+}
+
+.progressbar li{
+	float: left;
+	text-align: center;
+	list-style-type: none;
+	margin-left: 55px;
+}
+
+.progressbar li i{
+	background: #e6e6e6;
+	border-radius: 100%;
+	padding: 5px 8px;
+	color: #fff;
+}
+
+.progressbar li.active i{
+	background: #ff6600;
+}
+
+.progressbar li span{
+	font-size: 12px;
+	font-weight: 500;
+	color: #e6e6e6;
+}
+
+.progressbar li.active span{
+	color: #ff6600;
+}
+
+.table-head{
+	background: #ff6600;
+	color: #fff;
+}
+
+.table-body{
+	background: #e6e6e6;
+}
+
+.table-body h6{
+	margin-bottom: 15px;
+}
+
+.table-body p{
+	font-size: 14px;
+	margin-top: -15px;
+}
+
+fieldset:not(:first-of-type) {
+    display: none
+}
+
+.help-inline-error{
+	color: red;
+}
